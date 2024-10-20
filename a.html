@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC University Admission Forum</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9fb;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00539C;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1.5px;
+        }
+        nav {
+            text-align: center;
+            background-color: #f0f0f5;
+            padding: 15px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #00539C;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #00539C;
+            color: white;
+        }
+        section {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #00539C;
+            font-size: 2em;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        p {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+        .task-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .task-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .task-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .task-card h3 {
+            color: #00539C;
+            margin-bottom: 15px;
+        }
+        .task-card p {
+            color: #555;
+        }
+        .task-card button {
+            background-color: #00539C;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .task-card button:hover {
+            background-color: #003c73;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #00539C;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABC University Admission Forum</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Apply Now</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2>Complete Your Admission Forum</h2>
+        <div class="task-list">
+            <div class="task-card">
+                <h3>Task 1: Submit Documents</h3>
+                <p>Submit all required documents including transcripts, ID, and certificates.</p>
+                <button onclick="alert('Task 1: Submit Documents')">Start Task</button>
+            </div>
+            <div class="task-card">
+                <h3>Task 2: Entrance Exam</h3>
+                <p>Register for and complete the online entrance exam.</p>
+                <button onclick="alert('Task 2: Entrance Exam')">Start Task</button>
+            </div>
+            <div class="task-card">
+                <h3>Task 3: Interview</h3>
+                <p>Schedule and attend your admission interview with our panel.</p>
+                <button onclick="alert('Task 3: Interview')">Start Task</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 ABC University | All Rights Reserved
+    </footer>
+
+    <script>
+        // Additional interactivity can be added here, e.g. handling user input or task tracking
+    </script>
+</body>
+</html>
